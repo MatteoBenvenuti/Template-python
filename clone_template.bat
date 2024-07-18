@@ -28,4 +28,6 @@ del "%FOLDER_NAME%\clone_template.bat" >nul 2>&1
 
 :: Messaggio di log finale
 echo Template clonato con successo nella directory: %FOLDER_NAME%
+
+:: termina l'esecuzione e cancella il file
 (goto) 2>nul & del "%~f0"
