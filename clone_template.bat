@@ -26,9 +26,6 @@ rmdir /s /q "%FOLDER_NAME%\.git" >nul 2>&1
 :: Rimuovi il file clone_template.bat dalla cartella clonata
 del "%FOLDER_NAME%\clone_template.bat" >nul 2>&1
 
-:: Rimuovi se stesso
-:: del "%~f0"
-
 :: Messaggio di log finale
 echo Template clonato con successo nella directory: %FOLDER_NAME%
-pause
+(goto) 2>nul & del "%~f0"
