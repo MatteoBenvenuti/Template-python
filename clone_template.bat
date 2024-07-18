@@ -1,7 +1,7 @@
 @echo off
 
 :: URL della repository da clonare
-set REPO_URL=https://github.com/tuo-username/tuo-repo-template.git
+set REPO_URL=https://github.com/MatteoBenvenuti/Template-python.git
 
 :: Clona la repository nella directory corrente
 git clone %REPO_URL% .
